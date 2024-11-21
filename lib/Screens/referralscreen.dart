@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:wallet_app/Screens/table.dart';
 import 'Teamleader1.dart';
 import 'nonfbamember.dart';
 
@@ -137,6 +138,12 @@ class _MyReferralsPageState extends State<MyReferralsPage> {
                         onPressed: () {
                           button = "update";
                           setState(() {});
+                          showDialog(
+                            context: context,
+                            builder: (context) {
+                              return AccountManagerCard();
+                            },
+                          );
                         },
                         child: Text(button),
                       ),

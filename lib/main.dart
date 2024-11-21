@@ -1,14 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wallet_app/Screens/TeamLeader2.dart';
 import 'package:wallet_app/Screens/walletAppScreen.dart';
-
-import 'Screens/Directfbanetwork.dart';
-import 'Screens/bounce.dart';
-import 'Screens/fbascreen.dart';
-import 'Screens/nonfbamember.dart';
-import 'Screens/referralscreen.dart';
-import 'Screens/table.dart';
-import 'Screens/textfieldscreen.dart';
 
 void main() {
   runApp(const MyApp());
